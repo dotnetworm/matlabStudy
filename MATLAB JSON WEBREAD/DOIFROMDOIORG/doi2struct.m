@@ -1,3 +1,4 @@
+#Created by Eren SOYLU
 function data = doi2struct(doi)
     urlprefix = 'http://dx.doi.org/';
     url = strcat(urlprefix,doi);
